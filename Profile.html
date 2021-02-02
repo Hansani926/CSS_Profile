@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <style>
+        header{
+            position: fixed;
+            display: block;
+            background: black;
+            height: 80px;
+         width: 100%;
+            box-shadow: 5px 5px 20px 1px grey;
+           z-index: 2;
+        }
+         header>div>h1{
+             padding-left: 60px;
+             font-size: 23px;
+             height: max-content;
+             width: max-content;
+             color: white;
+             right: 0;
+             bottom: 0;
+             padding-top: 12px;
+         }
+         h1{
+             display: inline-block;
+             margin-inline-end: 0px;
+             margin-inline-start: 0px;
+             margin-block-start: 0.83em;
+             margin-block-end: 0.83em;
+
+         }
+         header>ul{
+             padding-right: 103px;
+             padding-top: 9px;
+             margin-top: 0;
+             margin-bottom: 0;
+             position: fixed;
+             right: 0;
+             top: 0;
+             bottom: 0;
+             list-style-type: none;
+             height: 75px;
+         }
+        header>ul>h2{
+            font-size: 23px;
+            margin-right: 6px;
+            transition: 250ms;
+            padding-right: 30px;
+            color: deepskyblue;
+            font-weight: bold;
+            height: max-content;
+            width:max-content;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        h2{
+            display: inline-block;
+            margin-inline-end: 0px;
+            margin-inline-start: 0px;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+
+        }
+
+section{
+
+    background-image: linear-gradient(left,purple,navy,deeppink,white);
+}
+
+section{
+    display: block;
+
+}
+#home_detail{
+    left: 5%;
+    top: 20%;
+    position: absolute;
+    padding: 30px;
+    animation: mainTextAni 3s alternate;
+
+}
+h3{
+    font-weight: 400;
+    display: block;
+    font-size: 1.60em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+
+}
+body{
+    font-family: "Roboto Light";
+    color: black;
+
+
+}
+#home_detail>div>h4{
+    font-size: 35px;
+    margin: 0;
+    display: block;
+    font-weight: bold;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+}
+#home_detail>div>h5{
+    font-weight: 300;
+    display: block;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.85em;
+}
+.social_links{
+    height: 50px;
+    margin-bottom: 30px;
+}
+.social_links>a>img{
+    width: 40px;
+    margin-right: 25px;
+    transition: transform .2s;
+}
+
+.image_right{
+  width: 30%;
+    position: absolute;
+    margin: auto;
+    right: 0px;
+   /* height: 80px;
+    width: 60px;*/
+    z-index: 3;
+    padding: 10px;
+    top: 130px;
+    right: 116px;
+    animation: imgOpacity 2s alternate;
+
+
+}
+@keyframes imgOpacity {
+    0%{
+        right: -50%;
+    }
+    100%{
+        right: 0px;
+    }
+
+}
+aside{
+    display: block;
+}
+/*.white_back{
+    background-color: white;
+}*/
+        div{
+            display: block;
+        }
+/*.section{
+    position: relative;
+    height: 600px;
+    z-index: 1;
+    top: 60px;
+}*/
+.contact_info{
+    position: relative;
+    background-image: linear-gradient(grey,plum,gray);
+    /*width: 100%;*/
+    display: flex;
+    flex-wrap: wrap;
+    /*top: 1px;*/
+    width: auto;
+
+}
+.section{
+    display: block;
+
+}
+.contact_info>div{
+    display: flex;
+    margin: 0 80px 0 70px;
+    padding: 10px 0 10px 0;
+   margin: auto;
+    left: 0;
+    right: 0;
+}
+.contact_info>div>div{
+  /*  top: 0;
+bottom: 0;
+    margin: auto;
+    margin-left: 10px;*/
+    margin-left: 10px;
+}
+.contact_info>div>img{
+  padding: 1px;
+    width: 40px;
+    height: 40px;
+   top: 0;
+   bottom: 0;
+    /*left: 10px;*/
+
+}
+
+style Attribute{
+    visibility: visible;
+}
+.contact_info>div>div>h6{
+   display: inline;
+    font-weight: 300;
+    font-weight: bold;
+
+}
+h6{
+  margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.85em;
+    font-size: 1.0em;
+
+
+
+}
+.contact_info>div>div>h7{
+
+    font-weight: 300;
+   /* right: 300px;*/
+}
+h7{
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    font-size: 0.83em;
+    display: block;
+    /*top: 2px;*/
+
+}
+.contact_info>div>div{
+  color: black;
+    top: 0;
+    display: inline;
+
+
+    bottom: 0;
+
+}
+h8{
+left: 40px;
+}
+div{
+    display: block;
+}
+.contact_info>div>div>div:nth-child(3){
+    margin-left: 100px;
+}
+#section2{
+   padding: 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+   /* top: 500px;*/
+  /* padding-right: px;*/
+   /* padding-top: 300px;
+    padding-left: 500px;*/
+    background-color: white;
+
+}
+.section{
+    position: relative;
+    height: 600px;
+    z-index: 1;
+    top: 60px;
+
+
+}
+section{
+    display: block;
+}
+#section2>aside>img{
+    width: 100%;
+    /*top: 600px;*/
+
+}
+.imgAni.is-visible{
+    opacity: 1;
+
+}
+/*.imgAni{
+    transition:transform 4s .25s cubic-bezier(0,1,.3,1),opacity.3s.25s ease-out;
+    will-change: transform,opacity;
+}*/
+.asideAni{
+    transform: translateY(4em);
+    transition: transform 5s .50s cubic-bezier(0,1,.3,1),opacity.4s.50s ease-out;
+    will-change: transform,opacity;
+}
+#section2>section{
+   top: -20px;
+   right: 100%;
+    left:800px;
+   padding: 20px;
+    padding-left: 275px;
+
+}
+
+.asideAni.is-visible{
+    opacity: 1;
+}
+
+.section_header>p{
+    position: relative;
+    letter-spacing: 5px;
+   /* font-weight: 500;*/
+}
+p{
+    display: block;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: black;
+    font-weight: bold;
+}
+#section2>section>div>h10{
+    font-size: 40px;
+}
+h10{
+    margin: 0.02em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    font-weight: bold;
+    color: brown;
+}
+.my_details>p{
+    margin-left: auto;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    display: block;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.my_details>p>tab{
+    position: absolute;
+    left: 350px;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+    color:darkmagenta;
+}
+h10>p>img{
+   width: 200px;
+    height: 200px;
+   /* padding-left: 20px;*/
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+   /* display: grid;
+    !* height: 10%;*!
+    grid-template-rows: repeat(1,0fr);
+    !*grid-template-columns: repeat(1,1fr);*!
+    grid-row-gap: 0.5px;
+   !* grid-column-gap: 0.5px;*!
+    !* padding: 10%;
+*!      !* width: 50%;*!
+    position: relative;
+    !*  padding: 10px;*!
+    left: 300px;*/
+
+}
+body{
+  /*  width: 139%;*/
+    z-index: 1;
+}
+button{
+    text-transform: none;
+    overflow: visible;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.15;
+   /* margin: 0;*/
+    border: 5px solid purple;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    color: black;
+    /*background-color:lightpink;*/
+    background-image: linear-gradient(hotpink,papayawhip);
+    text-rendering: auto;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+   /*font: 400 13.3px "A araliya";*/
+margin-left: 10px;
+    margin: auto;
+}
+#section3>section{
+    left: 2%;
+    position: absolute;
+    margin: 500px 0 0 0;
+  /* top: 100px;*/
+    padding: 100px;
+    z-index: 1;
+}
+.asideAni.is-visible{
+    opacity: 1;
+}
+.asideAni{
+    transform: translateY(4em);
+    transition:transform 5s .50s cubic-bezier(0,1,.3,1), opacity .4s .50s ease-out;
+    will-change: transform , opacity;
+}
+.my_skills{
+    margin: 40px 0 0 0;
+}
+.my_skills{
+    letter-spacing: 2px;
+}
+
+
+.my_skills{
+    position: relative;
+    height: 20px;
+    border-radius: 10px;
+}
+.my_skills>div>span{
+    position: absolute;
+    margin: auto;
+    left: 30%;
+    color: black;
+    /*top: 1px;*/
+}
+        #section3>section>div>h11{
+            font-size: 40px;
+        }
+        h11{
+            margin: 0.02em;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-end: 0px;
+            margin-inline-start: 0px;
+            font-weight: bold;
+            color: brown;
+        }
+        .progressBarAnimation1.is-visible {
+            animation: pbAnia 2s alternate;
+        }
+        .progressBarAnimation2.is-visible{
+            animation: pbAnia 2s alternate;
+        }
+        .progressBarAnimation3.is-visible{
+            animation: pbAnia 2s alternate;
+        }
+
+        @keyframes pbAnia {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 75%;
+            }
+            100%{
+              width: 50%;
+            }
+            100%{
+                width: 80%;
+            }
+        }
+
+     .my_skills>div{
+         position: relative;
+         height: 20px;
+        /* border-radius: 10px;*/
+     }
+     #section3>aside{
+       /* top: 30%;*/
+         position: relative;
+         top: 500px;
+
+     }
+     #section3>aside>img{
+         width: 30%;
+         position: absolute;
+         padding: 10px;
+        /* right: 800px;*/
+         left: 900px;
+         top: 250px;
+         animation: imgOpacity 2s alternate;
+     }
+     aside{
+         display: block;
+     }
+     .imgAni.is-visible{
+         opacity: 1;
+
+     }
+     .aside_img_right>img{
+         display: none;
+         position: absolute;
+         right: 30px;
+         width: 30%;
+         margin: 30px;
+         z-index: 1;
+
+
+
+     }
+     .imgAni{
+         transition:transform 4s .25s cubic-bezier(0,1,.3,1), opacity .3s .25s ease-out;
+         will-change: transform , opacity;
+     }
+
+     #section4{
+         position: relative;
+         margin: 40px;
+         top: 505px;
+         background-color: white;
+     }
+     #section4>aside{
+         position: absolute;
+         top: 510px;
+         margin: 10px 20px 10px 50px;
+     }
+     #section4>aside>img{
+         display: none;
+         width: 50px;
+
+
+     }
+     #section4>section{
+         left: 5%;
+        /* right: 10%;*/
+         margin: auto;
+         width: 80%;
+         top: 15%;
+         position: absolute;
+     }
+        #section4>section>div>h12{
+            font-size: 40px;
+        }
+     h12{
+         margin: 0.02em;
+         margin-block-start: 1em;
+         margin-block-end: 1em;
+         margin-inline-end: 0px;
+         margin-inline-start: 0px;
+         font-weight: bold;
+         color: brown;
+     }
+     #section4>section>img{
+       padding: 2%;
+     }
+     #section4>section>section{
+       display: grid;
+        /* height: 10%;*/
+         grid-template-rows: repeat(2,1fr);
+         grid-template-columns: repeat(3,1fr);
+         grid-row-gap: 0.5px;
+         grid-column-gap: 0.5px;
+        /* padding: 10%;
+*/       width: 80%;
+         position: absolute;
+       /*  padding: 10px;*/
+         left: 432px;
+         top: 100px;
+
+     }
+     #section4>section>section>div{
+         transition: 500ms;
+     }
+     #section4>section>section>div>img{
+         width: 50%;
+         transition: 500ms;
+
+
+
+     }
+     img{
+         border-style: none;
+
+     }
+     #section5{
+         position: relative;
+         top: 590px;
+     }
+     #section5>section{
+         position: absolute;
+         margin: auto;
+         padding: 30px;
+
+     }
+        #section5>section>div>h13{
+            font-size: 40px;
+        }
+        h13{
+            margin: 0.02em;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-end: 0px;
+            margin-inline-start: 0px;
+            font-weight: bold;
+            color: brown;
+        }
+        form{
+            display: block;
+            margin-top: 3em;
+        }
+        .textFields>input{
+            border: 2px solid black;
+            background-image: linear-gradient(gainsboro,white);
+            width: 100%;
+            padding: 5px;
+            margin: 0 0 20px 0;
+            color: black;
+            top: 10px;
+        }
+        input{
+            overflow: visible;
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+        }
+        .textFields>textarea{
+            border: 2px solid black;
+            background-image: linear-gradient(gainsboro,white);
+            width: 100%;
+            padding: 10px;
+            margin: 0 0 10px 0;
+            color: black;
+           height: 100%;
+        }
+        textarea{
+            overflow: auto;
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            background-image: linear-gradient(gainsboro,white);
+            border: 2px solid black;
+            height: 150px;
+            width: 100%;
+        }
+        #send_button{
+            width: 90%;
+            position: absolute;
+        }
+        button{
+            text-transform: none;
+            overflow: visible;
+        }
+        #section5>aside>img{
+            width: 30%;
+            position: absolute;
+            padding: 10px;
+            left: 800px;
+            top: 150px;
+           /* left: 400px;*/
+           /* margin: 10px 0 0 0;*/
+        }
+        footer{
+           text-align: center;
+          /*padding: 20% 0 30% 0;*/
+           /* top: 1550px;*/
+            background-color: black;
+            height: 200px;
+           /* text-align: center;*/
+            margin: 600px 0 0 0;
+        }
+       footer>div>h1{
+            background-image: linear-gradient(purple,deeppink);
+           text-align: center;
+        }
+
+        #section5{
+            background-color: white;
+        }
+
+.grey_back{
+    background-image: linear-gradient(to right,purple,plum,lightpink);
+
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#section2>button{
+    width: 30%;
+    position: absolute;
+    padding: 10px;
+    /* right: 800px;*/
+    left: 900px;
+    top: 250px;
+}
+
+.showallass{
+    /*margin: 20px 0 0 0;*/
+    width: 30%;
+    position: absolute;
+    padding: 10px;
+    /* right: 800px;*/
+    left: 550px;
+    top: 500px;
+}
+#send_button>img{
+    width: 350px;
+    height: 108px;
+
+    display: grid;
+    /* height: 10%;*/
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(1,1fr);
+}
+#Interest>h10>p>img{
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(1,1fr);
+}
+        footer{
+            text-align: center;
+        }
+        nav{
+            display: block;
+        }
+        footer>nav>ul{
+            margin: auto;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            padding: 20px;
+        }
+        footer>nav>ul>li{
+            display: inline;
+            list-style: none;
+            padding: 10px 0 10px 0;
+            margin-right: 130px;
+        }
+        footer>nav>ul>li>a{
+            color: white;
+        }
+        .image_right>img{
+            border-radius: 100%;
+        }
+
+        @media all and  (min-width: 320px) and (max-width: 370px){
+            .section{
+                position: relative;
+                height: 600px;
+                z-index: 1;
+                top: 60px;
+                width: 1600px;
+
+
+            }
+        }
+
+
+    </style>
+</head>
+<body style="visibility: visible;">
+<div class="loader" style="visibility: visible;display: none"></div>
+<header style="z-index: 2">
+<div>
+    <h1>HANSANI SEWWANDI</h1>
+</div>
+<ul>
+    <h2>HOME</h2>
+    <h2>ABOUT</h2>
+    <h2>SKILLS</h2>
+    <h2>ASSIGNMENTS</h2>
+    <h2>CONTACT</h2>
+</ul>
+</header>
+<section class="section grey_back">
+    <section id="home_detail">
+        <div>
+            <h3>HEY THERE!</h3>
+            <h4>I AM HANSANI SEWWANDI</h4>
+            <h5 class="typing"> PROGRAMMER,DESIGNER</h5>
+            <div class="social_links">
+                <a>
+                    <img src="img/fbimg.png">
+                </a>
+                <a>
+                    <img src="img/Twitimg.png">
+                </a>
+                <a>
+                    <img src="img/Linkimg.png">
+                </a>
+                <a>
+                    <img src="img/Instimg.png">
+                </a>
+                <a>
+                    <img src="img/Stackimg.png">
+                </a>
+            </div>
+        </div>
+      <!-- <aside class="image_right">
+            <img src="img/proimg.jpg">
+        </aside>-->
+    </section>
+  
+    <div class="image_right">
+        <img src="img/proimg.jpg" height="300px" width="300px">
+    </div>
+</section>
+<section class="section white_back">
+    <div class="contact_info">
+        <div>
+            <img src="img/Phoneimg.png">
+
+            <div>
+            <h6>+9476097033</h6>
+                <h7>Call,Text or Whatsapp</h7>
+            </div>
+        </div>
+            <div>
+                <img src="img/emailimg.png">
+
+                <div>
+                    <h6>hansanisewwandi926@gmail.com</h6>
+                    <h7>Meet or Email</h7>
+                </div>
+            </div>
+
+    </div>
+    <section class="section white_back" id="section2">
+        <aside>
+            <img src="img/lpimg.jpg" class="show-on-scroll imgAni is-visible">
+        </aside>
+        <section class="show-on-scoroll asideAni is-visible">
+            <div class="section_header">
+                <p>
+                    A B O U T  M  E .......
+
+                </p>
+                <h10>My Profile And Details</h10>
+            </div>
+            <div class="my_details">
+                <p>
+                    Name
+                    <tab>
+                        :
+                        <span>L.G Hansani Sewwandi</span>
+                    </tab>
+                </p>
+                <p>Age
+                <tab>:<span>  21</span></tab>
+                </p>
+                <p>Batch
+                <tab>: <span> GDSE56</span></tab></p>
+                <p>Branch
+                <tab>: <span> Galle</span></tab></p>
+
+            </div>
+            <div id="Interest">
+                <h10>Interest
+                    <p>  <img src="img/sig.gif"  >
+
+                <img src="img/fly.gif">
+
+                  <img src="img/dro.gif"></h10></p>
+                <!--<img src="img/sig.gif">-->
+            </div>
+            <button>
+                Download CV
+            </button>
+        </section>
+    </section>
+</section>
+<!--<section class="section white_back" id="section2"></section>-->
+<section class="section white_back" id="section3">
+    <section class="show-on-scroll asideAni is-visible">
+        <div class="section_header">
+            <p>M Y  S K I L L S .........</p>
+            <h11>Everything about my Knowledge</h11>
+        </div>
+        <div class="my_skills">
+            <p>JAVA</p>
+            <div class="show-on-scroll progressBarAnimation1 is-visible" style="width: 75%; background-image: linear-gradient(red,lightpink)">
+                <span>75%</span>
+            </div>
+            <p>HTML  </p>
+            <div class="show-on-scroll progressBarAnimation2 is-visible" style="width: 50%; background-image: linear-gradient(darkgreen,lawngreen)">
+                <span>50%</span>
+            </div>
+            <p>CSS</p>
+            <div class="show-on-scroll progressBarAnimation3 is-visible" style="width: 80%; background-image: linear-gradient(navy,lightskyblue)">
+                <span>80%</span>
+            </div>
+        </div>
+
+    </section>
+  <aside class="">
+        <img src="img/sec3img.png" class="show-on-scroll imgAni is-visible">
+    </aside>
+
+</section>
+<section class="section white_back" id="section4">
+    <aside>
+        <!--<img src="img/sec4img.jpg" class="show-on-scroll imgAni is-visible">-->
+    </aside>
+    <section class="show-on-scroll asideAni is-visible">
+        <div class="section_header">
+            <p>A S S I G N M E N T S ........</p>
+            <h12>Desing & Deverloped by me</h12>
+
+        </div>
+        <img src="img/sec4img.jpg" class="show-on-scroll imgAni is-visible">
+       <section>
+<div>
+    <img src="img/ass_1.jpg">
+    <p>Assignment 01</p>
+</div>
+
+            <div>
+                <img src="img/ass_2.jpg">
+                <p>Assignment 02</p>
+            </div>
+            <div>
+                
+                <img src="img/ass_3.jpg">
+                <p>Assignment 03</p>
+            </div>
+            <div>
+                <img src="img/ass_4.jpg">
+                <p>Assignment 04</p>
+            </div>
+            <div>
+                <img src="img/ass_5.jpg">
+                <p>Assignment 05</p>
+            </div>
+
+        </section>
+
+        <div class="showallass">
+           <button>
+                View All
+            </button>
+        </div>
+    </section>
+
+</section>
+<section class="section white_back" id="section5">
+    <section class="show-on-scroll asideAni is-visible">
+        <div class=" section_header">
+            <p>
+                C O N T A C T   M E......
+            </p>
+            <h13>Please fill this Form</h13>
+        </div>
+        <form class="contact_form">
+            <div class="textFields">
+                <input type="text" name="name" placeholder="Name">
+            </div>
+            <div class="textFields">
+                <input type="text" placeholder="Contact">
+            </div>
+            <div>
+               <textarea name="message" placeholder="Message"></textarea>
+            </div>
+            <div id="send_button">
+               <!--<img src="img/send.gif">-->
+                <button>
+                    SEND
+                </button>
+            </div>
+        </form>
+    </section>
+    <aside class="">
+        <img src="img/dribbbb.gif">
+    </aside>
+</section>
+<footer>
+    <div>
+        <h1>HANSANI SEWWANDI</h1>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a>HOME</a>
+
+            </li>
+            <li>
+                <a>ABOUT</a>
+            </li>
+            <li>
+                <a>SKILLS</a>
+            </li>
+            <li>
+                <a>ASSIGNMENTS</a>
+            </li>
+            <li>
+                <a>CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>
